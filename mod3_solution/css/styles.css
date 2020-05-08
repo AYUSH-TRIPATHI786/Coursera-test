@@ -1,0 +1,56 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #24F632;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #24F69B;
+  border-radius: 0;
+  border: 0; 
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+#nav-list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #951C49;
+  text-align: center;
+  background: #2AC2EB;
+
+}
+#nav-list li {
+  border:1px solid #7307C0;
+}
+
+#nav-list li:hover {
+  background: #E7E7E7;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+section.row {
+  height: 1000px;
+  margin:10px 0px 10px auto;
+  background-color:#92FF00;
+}
